@@ -1,0 +1,57 @@
+body {
+    color: #2F5BEA;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #E5E5E5 url('../img/image.png') no-repeat center top;
+    padding: 23px 0; 
+}
+
+.nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; 
+}
+
+ul, li {
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+.lifs {
+    margin-right: 14px;
+}
+
+.logo {
+    margin-right: 19px;
+}
+
+.divider {
+    margin-right: 24,5px;
+}
+
+.primary {
+
+    position: absolute;
+    height: 14px;
+    left: 28.4%;
+    right: 28.01%;
+    top: 12px;
+}
+
+.menu_item {
+    
+}
+.menu_item a {
+    color: #737373;
+
+}
